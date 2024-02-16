@@ -4,16 +4,39 @@
     padding: 0;
 }
 .container img{
-   
+   padding-top:20px ;
 height: 100%;
 width: 100%;
-  
+background-repeat: no-repeat;
+background-size: cover;
 
 }
 .container{
-    background-repeat: no-repeat;
-    background-size: cover;
+    
    position: relative;
     height: 100vh;
     overflow: hidden;
+}
+.textoverlay h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 76px;
+    text-align: center;
+    justify-content: right;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 20px #000000,0 0 40px #614ba9b9;
+    
+    width: 90vw;
+}
+.navbar h2{
+    position: sticky;
+    /* top: 20px; Adjust as needed */
+    /* left: 50%; */
+    transform: translateX(-50%);
+    color: white;
+    font-size: 40px;
+    background: rgb(0, 0, 0);
 }
